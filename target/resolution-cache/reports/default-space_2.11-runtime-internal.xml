@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="space_2.11"
+		revision="1.0"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160213185808"/>
+	<dependencies>
+		<module organisation="com.jme3" name="nifty-style-black">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419211423" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="27">
+				<metadata-artifact status="no" details="" size="2251" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\nifty-style-black\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/nifty-style-black/3.0.0.20140325-SNAPSHOT/nifty-style-black-3.0.0.20140325-20140419.181416-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="nifty-style-black" type="jar" ext="jar" status="no" details="" size="72252" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\nifty-style-black\jars\nifty-style-black-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/nifty-style-black/3.0.0.20140325-SNAPSHOT/nifty-style-black-3.0.0.20140325-20140419.181416-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="nifty-examples">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419211415" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="26">
+				<metadata-artifact status="no" details="" size="2245" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\nifty-examples\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/nifty-examples/3.0.0.20140325-SNAPSHOT/nifty-examples-3.0.0.20140325-20140419.175918-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="nifty-examples" type="jar" ext="jar" status="no" details="" size="20970487" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\nifty-examples\jars\nifty-examples-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/nifty-examples/3.0.0.20140325-SNAPSHOT/nifty-examples-3.0.0.20140325-20140419.175918-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="nifty-default-controls">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205916" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="25">
+				<metadata-artifact status="no" details="" size="2261" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\nifty-default-controls\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/nifty-default-controls/3.0.0.20140325-SNAPSHOT/nifty-default-controls-3.0.0.20140325-20140419.175901-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="nifty-default-controls" type="jar" ext="jar" status="no" details="" size="268294" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\nifty-default-controls\jars\nifty-default-controls-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/nifty-default-controls/3.0.0.20140325-SNAPSHOT/nifty-default-controls-3.0.0.20140325-20140419.175901-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="nifty">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205859" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<metadata-artifact status="no" details="" size="2227" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\nifty\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/nifty/3.0.0.20140325-SNAPSHOT/nifty-3.0.0.20140325-20140419.175833-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="nifty" type="jar" ext="jar" status="no" details="" size="537719" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\nifty\jars\nifty-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/nifty/3.0.0.20140325-SNAPSHOT/nifty-3.0.0.20140325-20140419.175833-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="jME3-niftygui">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205832" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<metadata-artifact status="no" details="" size="2243" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-niftygui\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-niftygui/3.0.0.20140325-SNAPSHOT/jME3-niftygui-3.0.0.20140325-20140419.175826-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jME3-niftygui" type="jar" ext="jar" status="no" details="" size="36877" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-niftygui\jars\jME3-niftygui-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-niftygui/3.0.0.20140325-SNAPSHOT/jME3-niftygui-3.0.0.20140325-20140419.175826-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="xmlpull-xpp3">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205757" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<metadata-artifact status="no" details="" size="2241" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\xmlpull-xpp3\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/xmlpull-xpp3/3.0.0.20140325-SNAPSHOT/xmlpull-xpp3-3.0.0.20140325-20140419.175747-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="xmlpull-xpp3" type="jar" ext="jar" status="no" details="" size="115553" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\xmlpull-xpp3\jars\xmlpull-xpp3-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/xmlpull-xpp3/3.0.0.20140325-SNAPSHOT/xmlpull-xpp3-3.0.0.20140325-20140419.175747-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="vecmath">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205746" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<metadata-artifact status="no" details="" size="2231" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\vecmath\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/vecmath/3.0.0.20140325-SNAPSHOT/vecmath-3.0.0.20140325-20140419.175731-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="vecmath" type="jar" ext="jar" status="no" details="" size="253062" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\vecmath\jars\vecmath-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/vecmath/3.0.0.20140325-SNAPSHOT/vecmath-3.0.0.20140325-20140419.175731-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="stack-alloc">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205730" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<metadata-artifact status="no" details="" size="2239" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\stack-alloc\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/stack-alloc/3.0.0.20140325-SNAPSHOT/stack-alloc-3.0.0.20140325-20140419.175724-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="stack-alloc" type="jar" ext="jar" status="no" details="" size="47588" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\stack-alloc\jars\stack-alloc-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/stack-alloc/3.0.0.20140325-SNAPSHOT/stack-alloc-3.0.0.20140325-20140419.175724-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="eventbus">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205723" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<metadata-artifact status="no" details="" size="2233" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\eventbus\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/eventbus/3.0.0.20140325-SNAPSHOT/eventbus-3.0.0.20140325-20140419.175715-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="eventbus" type="jar" ext="jar" status="no" details="" size="81228" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\eventbus\jars\eventbus-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/eventbus/3.0.0.20140325-SNAPSHOT/eventbus-3.0.0.20140325-20140419.175715-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="jinput">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205714" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<metadata-artifact status="no" details="" size="2229" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jinput\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jinput/3.0.0.20140325-SNAPSHOT/jinput-3.0.0.20140325-20140419.175701-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jinput" type="jar" ext="jar" status="no" details="" size="214859" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jinput\jars\jinput-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jinput/3.0.0.20140325-SNAPSHOT/jinput-3.0.0.20140325-20140419.175701-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="j-ogg-vorbisd">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205825" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<metadata-artifact status="no" details="" size="2243" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\j-ogg-vorbisd\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/j-ogg-vorbisd/3.0.0.20140325-SNAPSHOT/j-ogg-vorbisd-3.0.0.20140325-20140419.175819-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="j-ogg-vorbisd" type="jar" ext="jar" status="no" details="" size="41672" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\j-ogg-vorbisd\jars\j-ogg-vorbisd-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/j-ogg-vorbisd/3.0.0.20140325-SNAPSHOT/j-ogg-vorbisd-3.0.0.20140325-20140419.175819-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="j-ogg-oggd">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205817" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<metadata-artifact status="no" details="" size="2237" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\j-ogg-oggd\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/j-ogg-oggd/3.0.0.20140325-SNAPSHOT/j-ogg-oggd-3.0.0.20140325-20140419.175813-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="j-ogg-oggd" type="jar" ext="jar" status="no" details="" size="26285" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\j-ogg-oggd\jars\j-ogg-oggd-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/j-ogg-oggd/3.0.0.20140325-SNAPSHOT/j-ogg-oggd-3.0.0.20140325-20140419.175813-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="jME3-jogg">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205811" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<metadata-artifact status="no" details="" size="2235" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-jogg\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-jogg/3.0.0.20140325-SNAPSHOT/jME3-jogg-3.0.0.20140325-20140419.175807-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jME3-jogg" type="jar" ext="jar" status="no" details="" size="10118" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-jogg\jars\jME3-jogg-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-jogg/3.0.0.20140325-SNAPSHOT/jME3-jogg-3.0.0.20140325-20140419.175807-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="jME3-testdata">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419214456" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<metadata-artifact status="no" details="" size="2243" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-testdata\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-testdata/3.0.0.20140325-SNAPSHOT/jME3-testdata-3.0.0.20140325-20140419.181425-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jME3-testdata" type="jar" ext="jar" status="no" details="" size="42683876" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-testdata\jars\jME3-testdata-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-testdata/3.0.0.20140325-SNAPSHOT/jME3-testdata-3.0.0.20140325-20140419.181425-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="jME3-terrain">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205659" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<metadata-artifact status="no" details="" size="2241" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-terrain\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-terrain/3.0.0.20140325-SNAPSHOT/jME3-terrain-3.0.0.20140325-20140419.175649-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jME3-terrain" type="jar" ext="jar" status="no" details="" size="159602" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-terrain\jars\jME3-terrain-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-terrain/3.0.0.20140325-SNAPSHOT/jME3-terrain-3.0.0.20140325-20140419.175649-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="jME3-plugins">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205647" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<metadata-artifact status="no" details="" size="2241" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-plugins\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-plugins/3.0.0.20140325-SNAPSHOT/jME3-plugins-3.0.0.20140325-20140419.175641-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jME3-plugins" type="jar" ext="jar" status="no" details="" size="69700" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-plugins\jars\jME3-plugins-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-plugins/3.0.0.20140325-SNAPSHOT/jME3-plugins-3.0.0.20140325-20140419.175641-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="jME3-networking">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205639" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<metadata-artifact status="no" details="" size="2247" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-networking\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-networking/3.0.0.20140325-SNAPSHOT/jME3-networking-3.0.0.20140325-20140419.175630-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jME3-networking" type="jar" ext="jar" status="no" details="" size="128147" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-networking\jars\jME3-networking-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-networking/3.0.0.20140325-SNAPSHOT/jME3-networking-3.0.0.20140325-20140419.175630-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="jME3-effects">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205628" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<metadata-artifact status="no" details="" size="2241" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-effects\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-effects/3.0.0.20140325-SNAPSHOT/jME3-effects-3.0.0.20140325-20140419.175602-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jME3-effects" type="jar" ext="jar" status="no" details="" size="531385" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-effects\jars\jME3-effects-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-effects/3.0.0.20140325-SNAPSHOT/jME3-effects-3.0.0.20140325-20140419.175602-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="jME3-blender">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419230358" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<metadata-artifact status="no" details="" size="2241" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-blender\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-blender/3.0.0.20140325-SNAPSHOT/jME3-blender-3.0.0.20140325-20140419.200339-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jME3-blender" type="jar" ext="jar" status="no" details="" size="357619" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-blender\jars\jME3-blender-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-blender/3.0.0.20140325-SNAPSHOT/jME3-blender-3.0.0.20140325-20140419.200339-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="jbullet">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205514" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<metadata-artifact status="no" details="" size="2231" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jbullet\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jbullet/3.0.0.20140325-SNAPSHOT/jbullet-3.0.0.20140325-20140419.175447-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jbullet" type="jar" ext="jar" status="no" details="" size="536146" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jbullet\jars\jbullet-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jbullet/3.0.0.20140325-SNAPSHOT/jbullet-3.0.0.20140325-20140419.175447-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="jME3-jbullet">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205446" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<metadata-artifact status="no" details="" size="2241" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-jbullet\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-jbullet/3.0.0.20140325-SNAPSHOT/jME3-jbullet-3.0.0.20140325-20140419.175435-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jME3-jbullet" type="jar" ext="jar" status="no" details="" size="166709" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-jbullet\jars\jME3-jbullet-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-jbullet/3.0.0.20140325-SNAPSHOT/jME3-jbullet-3.0.0.20140325-20140419.175435-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="jME3-lwjgl-natives">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205343" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<metadata-artifact status="no" details="" size="2253" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-lwjgl-natives\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-lwjgl-natives/3.0.0.20140325-SNAPSHOT/jME3-lwjgl-natives-3.0.0.20140325-20140419.175159-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jME3-lwjgl-natives" type="jar" ext="jar" status="no" details="" size="2393401" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-lwjgl-natives\jars\jME3-lwjgl-natives-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-lwjgl-natives/3.0.0.20140325-SNAPSHOT/jME3-lwjgl-natives-3.0.0.20140325-20140419.175159-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="lwjgl">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205433" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<metadata-artifact status="no" details="" size="2227" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\lwjgl\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/lwjgl/3.0.0.20140325-SNAPSHOT/lwjgl-3.0.0.20140325-20140419.175346-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lwjgl" type="jar" ext="jar" status="no" details="" size="994633" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\lwjgl\jars\lwjgl-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/lwjgl/3.0.0.20140325-SNAPSHOT/lwjgl-3.0.0.20140325-20140419.175346-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="jME3-lwjgl">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205157" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<metadata-artifact status="no" details="" size="2237" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-lwjgl\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-lwjgl/3.0.0.20140325-SNAPSHOT/jME3-lwjgl-3.0.0.20140325-20140419.175148-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jME3-lwjgl" type="jar" ext="jar" status="no" details="" size="102784" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-lwjgl\jars\jME3-lwjgl-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-lwjgl/3.0.0.20140325-SNAPSHOT/jME3-lwjgl-3.0.0.20140325-20140419.175148-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="jME3-core">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205147" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<metadata-artifact status="no" details="" size="2235" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-core\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-core/3.0.0.20140325-SNAPSHOT/jME3-core-3.0.0.20140325-20140419.175051-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jME3-core" type="jar" ext="jar" status="no" details="" size="1243587" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-core\jars\jME3-core-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-core/3.0.0.20140325-SNAPSHOT/jME3-core-3.0.0.20140325-20140419.175051-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="jME3-desktop">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419230413" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<metadata-artifact status="no" details="" size="2241" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-desktop\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-desktop/3.0.0.20140325-SNAPSHOT/jME3-desktop-3.0.0.20140325-20140419.200359-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jME3-desktop" type="jar" ext="jar" status="no" details="" size="229684" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jME3-desktop\jars\jME3-desktop-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jME3-desktop/3.0.0.20140325-SNAPSHOT/jME3-desktop-3.0.0.20140325-20140419.200359-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jme3" name="jmonkeyengine3">
+			<revision name="3.0.0.20140325-SNAPSHOT" status="integration" pubdate="20140419205049" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="no" details="" size="2245" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jmonkeyengine3\ivy-3.0.0.20140325-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jmonkeyengine3/3.0.0.20140325-SNAPSHOT/jmonkeyengine3-3.0.0.20140325-20140419.175015-1.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.0.20140325-SNAPSHOT" rev-constraint-default="3.0.0.20140325-SNAPSHOT" rev-constraint-dynamic="3.0.0.20140325-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jmonkeyengine3" type="jar" ext="jar" status="no" details="" size="710379" time="0" location="C:\Users\Denis\.ivy2\cache\com.jme3\jmonkeyengine3\jars\jmonkeyengine3-3.0.0.20140325-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/com/jme3/jmonkeyengine3/3.0.0.20140325-SNAPSHOT/jmonkeyengine3-3.0.0.20140325-20140419.175015-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.5" status="release" pubdate="20150107023212" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.5/scala-library-2.11.5.pom"/>
+				<caller organisation="default" name="space_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5576839" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.5/scala-library-2.11.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
