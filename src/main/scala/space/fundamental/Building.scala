@@ -1,4 +1,4 @@
-package Classes
+package space.fundamental
 
 sealed trait BuildingType
 case object Entertainment extends BuildingType

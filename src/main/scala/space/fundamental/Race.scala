@@ -1,4 +1,4 @@
-package Classes
+package space.fundamental
 
 sealed trait RaceKind
 case object Humanoid extends RaceKind
