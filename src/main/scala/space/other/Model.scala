@@ -20,7 +20,7 @@ class Model(val assetName: String) {
         val vec = spatial.getLocalScale
         Pos(vec.x, vec.y)
     }
-    def scalse_=(pos: Pos) = {
+    def scale_=(pos: Pos): Unit = {
         spatial.setLocalTranslation(pos.x, pos.y, 0)
     }
 

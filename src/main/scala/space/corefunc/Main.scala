@@ -19,11 +19,10 @@ object Main extends SimpleApplication {
          val dl: DirectionalLight = new DirectionalLight
          dl.setDirection(new Vector3f(-0.1f, 1f, -1).normalizeLocal)
 
-         val planet: Spatial = assetManager.loadModel("sphere2.blend")
-         planet.setMaterial(new Material(assetManager, "BbLjlGg.png"))
+         val planet: Model = new Model("sphere2.blend")
 
          //new Model("sphere2.blend")
-         rootNode.attachChild(planet)
+        // rootNode.attachChild(planet)
          rootNode.addLight(dl)
     }
 }
