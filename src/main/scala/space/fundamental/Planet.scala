@@ -1,5 +1,7 @@
 package space.fundamental
 
+import space.fundamental.parameters.Production
+
 sealed trait PlanetType
 case object Normal extends PlanetType
 case object Acid_Rain extends PlanetType
@@ -14,4 +16,15 @@ class Planet (var name: String, val size: Int, val resources : List[Resource], v
     var population: Int = 0
     var buildings = List[Building]()
 
+    var parameters : Production = {
+        var summary : Production = new Production()
+        for (currentBuilding <- buildings){
+            summary += currentBuilding.parameters
+        }
+        summary
+    }
+
+    def build (newBuilding : Building): Unit ={
+        buildings = newBuilding :: buildings
+    }
 }
