@@ -1,12 +1,16 @@
 package space.other
 
+import com.jme3.scene.Node
 import space.corefunc.Main
 
 //Found a way to access inaccessible, delete comment after read :)
 
 class Model(val assetName: String) {
     val spatial = Main.getAssetManager.loadModel(assetName)
-    Main.getRootNode.attachChild(spatial)
+
+    def attachTo(node: Node): Unit = {
+        node.attachChild(spatial)
+    }
 
     def position: Pos = {
         val vec = spatial.getLocalTranslation

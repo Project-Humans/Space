@@ -4,7 +4,7 @@
 		module="space$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160213181013"
+		publication="20160221161320"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

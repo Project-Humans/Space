@@ -4,7 +4,7 @@
 		module="space-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160213180934"
+		publication="20160221160924"
 		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>

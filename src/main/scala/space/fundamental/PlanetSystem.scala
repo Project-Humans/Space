@@ -1,26 +1,32 @@
 package space.fundamental
 
-import space.fundamental.parameters.Production
+import space.fundamental.parameters.Parameters
+
+//Changed your realization for better suited in scala ^_^
 
 class PlanetSystem (val name : String) {
-  var planets = List[Planet]()
+     var planets = List[Planet]()
   //var owner : Player = @no owner@
 
-  def population () : Int ={
-    var sum : Int = 0
-    for (currentPlanet <- planets){
-      sum += currentPlanet.population
-    }
-    sum
-  }
+     def population () : Int ={
+//    var sum : Int = 0
+//    for (currentPlanet <- planets){
+//      sum += currentPlanet.population
+//    }
+//    sum
 
-  var parameters : Production = {
-    var summary : Production = new Production()
-    for(currentPlanet <- planets){
-      summary += currentPlanet.parameters
-    }
-    summary
-  }
+         planets.foldLeft(0)((sum, planet) => sum + planet.population)
+     }
+
+     var parameters : Parameters = {
+//         var summary : Parameters = new Parameters()
+//         for(currentPlanet <- planets){
+//             summary += currentPlanet.parameters
+//         }
+//         summary
+
+         planets.foldLeft(Parameters())((summary, planet) => summary + planet.parameters)
+     }
 
 
 

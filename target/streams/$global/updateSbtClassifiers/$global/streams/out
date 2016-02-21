@@ -699,9 +699,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.7!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.7!apply-macro.jar
-[debug] :: resolution report :: resolve 567ms :: artifacts dl 54ms
+[debug] :: resolution report :: resolve 897ms :: artifacts dl 39ms
 [debug] 	report for default#space$sbt_2.11;1.0 default produced in D:\Projects\Space\target\resolution-cache\reports\default-space$sbt_2.11-default.xml
-[debug] 	resolve done (567ms resolve - 54ms download)
+[debug] 	resolve done (897ms resolve - 39ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#space$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -843,6 +843,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
 [debug] 	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar(src)
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar(src)
-[debug] :: resolution report :: resolve 27ms :: artifacts dl 35ms
+[debug] :: resolution report :: resolve 38ms :: artifacts dl 11ms
 [debug] 	report for default#space$sources_2.11;1.0 default produced in D:\Projects\Space\target\resolution-cache\reports\default-space$sources_2.11-default.xml
-[debug] 	resolve done (27ms resolve - 35ms download)
+[debug] 	resolve done (38ms resolve - 11ms download)

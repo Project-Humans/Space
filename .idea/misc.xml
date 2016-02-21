@@ -38,12 +38,8 @@
       <property class="java.lang.Integer" name="caretWidth" />
     </properties>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option value="Bundled (Maven 3)" name="mavenHome" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting id="Add" value="true" />

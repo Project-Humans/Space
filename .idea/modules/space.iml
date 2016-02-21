@@ -21,7 +21,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.5:jar" level="project" />
     <orderEntry type="library" name="SBT: com.jme3:eventbus:3.0.0.20140325-SNAPSHOT:jar" level="project" />
     <orderEntry type="library" name="SBT: com.jme3:j-ogg-oggd:3.0.0.20140325-SNAPSHOT:jar" level="project" />
     <orderEntry type="library" name="SBT: com.jme3:j-ogg-vorbisd:3.0.0.20140325-SNAPSHOT:jar" level="project" />
@@ -49,6 +48,7 @@
     <orderEntry type="library" name="SBT: com.jme3:stack-alloc:3.0.0.20140325-SNAPSHOT:jar" level="project" />
     <orderEntry type="library" name="SBT: com.jme3:vecmath:3.0.0.20140325-SNAPSHOT:jar" level="project" />
     <orderEntry type="library" name="SBT: com.jme3:xmlpull-xpp3:3.0.0.20140325-SNAPSHOT:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.5:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang:scala-reflect:2.11.2:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang.modules:scala-xml_2.11:1.0.2:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scalatest:scalatest_2.11:2.2.4:jar" level="project" />
