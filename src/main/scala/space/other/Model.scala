@@ -3,7 +3,6 @@ package space.other
 import com.jme3.scene.Node
 import space.corefunc.Main
 
-//Found a way to access inaccessible, delete comment after read :)
 
 class Model(val assetName: String) {
     val spatial = Main.getAssetManager.loadModel(assetName)
@@ -26,6 +25,10 @@ class Model(val assetName: String) {
     }
     def scale_=(pos: Pos): Unit = {
         spatial.setLocalTranslation(pos.x, pos.y, 0)
+    }
+
+    def rotate_=(pos: Pos): Unit ={
+        spatial.rotate(pos.x, pos.y, 0)
     }
 
 }

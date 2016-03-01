@@ -3,7 +3,6 @@ package space.other
 import com.jme3.scene.Spatial
 import space.fundamental.{Desert, Normal, Planet}
 
-//My addition, erase this comment after you read it
 
 
 class Planetoid(val planet: Planet) {
