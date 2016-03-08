@@ -7,11 +7,11 @@ import space.fundamental.PlanetSystem
 class System(system: PlanetSystem) {
 
     val center: Node = new Node()
-    val star: Model = new Model("sphere2.blend")
+    val star: Model = new Model("sphere with texture.j3o", "Chess Board Texture.png")
     star attachTo center
 
     var planets: List[Planetoid] = system.planets.map(new Planetoid(_))
-    planets.foreach(_.model.attachTo(center))
+   // planets.foreach(_.model.attachTo(center))
 
     //var planets = List[Planetoid]()
 
