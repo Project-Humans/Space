@@ -1,18 +1,17 @@
 package space.corefunc
 
 import java.io.{IOException, FileNotFoundException, FileOutputStream, File}
-import javafx.scene.input.MouseButton
 
 import com.jme3.app.SimpleApplication
 import com.jme3.export.binary.BinaryExporter
 import com.jme3.input.{MouseInput, KeyInput}
 import com.jme3.input.controls._
 import com.jme3.light.DirectionalLight
-import com.jme3.material.Material
 import com.jme3.math.Vector3f
 import com.jme3.scene.Spatial
 import com.jme3.scene.plugins.blender.BlenderModelLoader
-import space.other.Model
+import space.fundamental.{Normal, Resource, Planet, PlanetSystem}
+import space.other.System
 
 
 object Main extends SimpleApplication {
@@ -59,25 +58,33 @@ object Main extends SimpleApplication {
 
     override def simpleInitApp(): Unit = {
 
+        def initControlKeys: Unit = {
+            inputManager.addMapping("Up", new KeyTrigger(KeyInput.KEY_W))
+            inputManager.addMapping("Down", new KeyTrigger(KeyInput.KEY_S))
+            inputManager.addMapping("Left", new KeyTrigger(KeyInput.KEY_A))
+            inputManager.addMapping("Right", new KeyTrigger(KeyInput.KEY_D))
+            inputManager.addMapping("Forward", new MouseAxisTrigger(MouseInput.AXIS_WHEEL, false))
+            inputManager.addMapping("Back", new MouseAxisTrigger(MouseInput.AXIS_WHEEL, true))
+
+            inputManager.addListener(cameraController, "Up", "Down", "Right", "Left", "Forward", "Back")
+        }
+
         flyCam.setMoveSpeed(10)
         flyCam.setEnabled(false)
 
-        inputManager.addMapping("Up", new KeyTrigger(KeyInput.KEY_W))
-        inputManager.addMapping("Down", new KeyTrigger(KeyInput.KEY_S))
-        inputManager.addMapping("Left", new KeyTrigger(KeyInput.KEY_A))
-        inputManager.addMapping("Right", new KeyTrigger(KeyInput.KEY_D))
-        inputManager.addMapping("Forward", new MouseAxisTrigger(MouseInput.AXIS_WHEEL, false))
-        inputManager.addMapping("Back", new MouseAxisTrigger(MouseInput.AXIS_WHEEL, true))
-
-        inputManager.addListener(cameraController, "Up", "Down", "Right", "Left", "Forward", "Back")
+        initControlKeys
 
         val dl: DirectionalLight = new DirectionalLight
         dl.setDirection(new Vector3f(-0.1f, 1f, -1).normalizeLocal)
 
         //j3oloader("sphere with texture test")
 
-        val model = new Model("sphere with texture test.j3o", "Chess Board Texture.png")
-        model attachTo rootNode
+        val planetSystem: PlanetSystem = new PlanetSystem("Sol")
+        planetSystem.planets = new Planet("earth", 0, List[Resource](), Normal) :: List[Planet]()
+        val system: System = new System(planetSystem)
+
+        //val model = new Model("sphere with texture test.j3o", "Chess Board Texture.png")
+        //model attachTo rootNode
         //model.setMaterial(new Material(assetManager, "sphere with texture test.png"))
 
         cam.setLocation(cam.getLocation.add(0f, 0f, 3f))

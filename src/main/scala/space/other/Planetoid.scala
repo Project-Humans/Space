@@ -17,7 +17,7 @@ class Planetoid(val planet: Planet) {
 
     def modelize(planet: Planet): Model = {
         planet.planetType match {
-            case _ => new Model("sphere with texture.j3o", "Chess Board Texture.png")
+            case _ => new Model("sphere with texture test.j3o", "Chess Board Texture.png")
         }
     }
 }

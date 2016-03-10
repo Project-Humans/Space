@@ -1,7 +1,7 @@
 package space.other
 
 import com.jme3.material.Material
-import com.jme3.scene.Node
+import com.jme3.scene.{Spatial, Node}
 import space.corefunc.Main
 import space.corefunc.Main._
 
