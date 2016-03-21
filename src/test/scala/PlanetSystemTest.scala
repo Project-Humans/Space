@@ -1,9 +1,9 @@
 import org.scalatest.FlatSpec
-import space.fundamental.{Normal, Resource, Planet, PlanetSystem}
+import space.fundamental.{Temperate, Normal, Resource, Planet, PlanetSystem}
 
 class PlanetSystemTest extends FlatSpec {
     val system = new PlanetSystem("solar")
-    val emptyPlanet: Planet = new Planet("empty", 0, List[Resource](), Normal)
+    val emptyPlanet: Planet = new Planet("empty", Normal , List[Resource](), Temperate)
     emptyPlanet.population = 10
 
     system.planets = emptyPlanet :: emptyPlanet :: emptyPlanet :: List[Planet]()
