@@ -8,7 +8,7 @@ class PlanetSystemTest extends FlatSpec {
 
     system.planets = emptyPlanet :: emptyPlanet :: emptyPlanet :: List[Planet]()
 
-    "System population" should "be 30" in {
+    "PlanetSystem population" should "be 30" in {
         assert(system.population == 30)
     }
 

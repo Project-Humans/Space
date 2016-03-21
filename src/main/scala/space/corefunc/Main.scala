@@ -13,7 +13,6 @@ import com.jme3.math.{Ray, Vector2f, Vector3f}
 import com.jme3.scene.Spatial
 import com.jme3.scene.plugins.blender.BlenderModelLoader
 import space.fundamental.{Normal, Resource, Planet, PlanetSystem}
-import space.other.System
 import space.user.Controls
 
 
