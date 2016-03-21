@@ -7,8 +7,20 @@
 		revision="1.0"
 		conf="default"
 		confs="default"
-		date="20160221161319"/>
+		date="20160321182530"/>
 	<dependencies>
+		<module organisation="com.eed3si9n" name="sbt-assembly">
+			<revision name="0.10.1" status="release" pubdate="20131101224928" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="54">
+				<license name="MIT License" url="https://github.com/sbt/sbt-assembly/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="1566" time="0" location="C:\Users\Denis\.ivy2\cache\scala_2.10\sbt_0.13\com.eed3si9n\sbt-assembly\ivy-0.10.1.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.1/ivys/ivy.xml"/>
+				<caller organisation="default" name="space$sbt_2.11" conf="default" rev="0.10.1" rev-constraint-default="0.10.1" rev-constraint-dynamic="0.10.1" callerrev="1.0" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-assembly" type="jar" ext="jar" status="no" details="" size="146239" time="0" location="C:\Users\Denis\.ivy2\cache\scala_2.10\sbt_0.13\com.eed3si9n\sbt-assembly\jars\sbt-assembly-0.10.1.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.1/jars/sbt-assembly.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.github.mpeltonen" name="sbt-idea">
 			<revision name="1.6.0" status="release" pubdate="20140208211446" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://your.project.url" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="52">
 				<license name="BSD-style" url="http://www.opensource.org/licenses/BSD-3-Clause"/>

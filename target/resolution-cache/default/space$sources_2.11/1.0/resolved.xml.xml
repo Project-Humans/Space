@@ -4,7 +4,7 @@
 		module="space$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160221161320"
+		publication="20160321182531"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
@@ -56,6 +56,9 @@
 		</dependency>
 		<dependency org="commons-io" name="commons-io" rev="2.0.1" transitive="false" conf="default->default(compile)">
 			<artifact name="commons-io" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.eed3si9n" name="sbt-assembly" rev="0.10.1" transitive="false" conf="default->default(compile)" sbtVersion="0.13" scalaVersion="2.10">
+			<artifact name="sbt-assembly" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 	</dependencies>
 </ivy-module>

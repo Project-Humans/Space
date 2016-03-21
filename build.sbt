@@ -1,3 +1,7 @@
+import AssemblyKeys._
+
+jarName in assembly := "Space.jar"
+
 name := "Space"
 
 version := "1.0"
@@ -65,3 +69,4 @@ libraryDependencies += "com.jme3" % "nifty-default-controls" % jmeVersion
 libraryDependencies += "com.jme3" % "nifty-examples" % jmeVersion
 
 libraryDependencies += "com.jme3" % "nifty-style-black" % jmeVersion
+

@@ -1,25 +1,53 @@
-java.lang.RuntimeException: No main class detected.
-	at scala.sys.package$.error(package.scala:27)
-	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$36$$anonfun$apply$37$$anonfun$26.apply(Defaults.scala:706)
-	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$36$$anonfun$apply$37$$anonfun$26.apply(Defaults.scala:706)
-	at scala.Option.getOrElse(Option.scala:120)
-	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$36$$anonfun$apply$37.apply(Defaults.scala:706)
-	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$36$$anonfun$apply$37.apply(Defaults.scala:705)
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
-	at sbt.std.Transform$$anon$4.work(System.scala:63)
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
-	at sbt.Execute.work(Execute.scala:235)
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
-	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
-	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-[0m[[31merror[0m] [0m(compile:[31mrun[0m) No main class detected.[0m
+[0m[[0minfo[0m] [0mRunning space.corefunc.Main [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	D:\Projects\Space\target\scala-2.11\classes[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.5.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\jmonkeyengine3\jars\jmonkeyengine3-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\jME3-desktop\jars\jME3-desktop-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\jME3-core\jars\jME3-core-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\jME3-lwjgl\jars\jME3-lwjgl-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\lwjgl\jars\lwjgl-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\jME3-lwjgl-natives\jars\jME3-lwjgl-natives-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\jME3-jbullet\jars\jME3-jbullet-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\jbullet\jars\jbullet-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\jME3-blender\jars\jME3-blender-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\jME3-effects\jars\jME3-effects-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\jME3-networking\jars\jME3-networking-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\jME3-plugins\jars\jME3-plugins-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\jME3-terrain\jars\jME3-terrain-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\jME3-testdata\jars\jME3-testdata-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\jME3-jogg\jars\jME3-jogg-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\j-ogg-oggd\jars\j-ogg-oggd-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\j-ogg-vorbisd\jars\j-ogg-vorbisd-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\jinput\jars\jinput-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\eventbus\jars\eventbus-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\stack-alloc\jars\stack-alloc-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\vecmath\jars\vecmath-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\xmlpull-xpp3\jars\xmlpull-xpp3-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\jME3-niftygui\jars\jME3-niftygui-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\nifty\jars\nifty-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\nifty-default-controls\jars\nifty-default-controls-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\nifty-examples\jars\nifty-examples-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Denis\.ivy2\cache\com.jme3\nifty-style-black\jars\nifty-style-black-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread AWT-Shutdown to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread AWT-Shutdown exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread LWJGL Renderer Thread to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread LWJGL Renderer Thread exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mDisposing 1 top-level windows...[0m
+[0m[[0mdebug[0m] [0mWaiting 2 s to let AWT thread exit.[0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[AWT-Windows,6,system][0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[D3D Screen Updater,7,system][0m
+[0m[[0mdebug[0m] [0mInterrupting thread Thread-4[0m
+[0m[[0mdebug[0m] [0m	Interrupted Thread-4[0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[TimerQueue,5,system][0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[Thread-2,6,system][0m
+[0m[[0mdebug[0m] [0mInterrupting thread Thread-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted Thread-1[0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[Thread-3,6,system][0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[Java2D Disposer,10,system][0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m

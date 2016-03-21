@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for default#space$sources_javadoc_2.11;1.0 [compile]
 [debug] == resolving dependencies default#space$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.5 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43ab2a3e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b9456c
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.5
 [debug] 	found org.scala-lang#scala-library;2.11.5 in sbt-chain
 [debug] 	[2.11.5] org.scala-lang#scala-library;2.11.5
@@ -42,7 +42,7 @@
 [debug] == resolving dependencies default#space$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.5 [test->master]
 [debug] == resolving dependencies default#space$sources_javadoc_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;2.2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9a4e77f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d91eecb
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4
 [debug] 	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain
 [debug] == resolving dependencies default#space$sources_javadoc_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->runtime]
@@ -50,7 +50,7 @@
 [debug] == resolving dependencies default#space$sources_javadoc_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->master]
 [debug] == resolving dependencies default#space$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ac30565
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a0661fa
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
 [debug] 	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
 [debug] 	[2.11.2] org.scala-lang#scala-reflect;2.11.2
@@ -59,7 +59,7 @@
 [debug] == resolving dependencies default#space$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test->master]
 [debug] == resolving dependencies default#space$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63d19ffd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@751ddd9d
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies default#space$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
@@ -225,7 +225,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12!jline.jar(doc)
 [debug] 	[NOT REQUIRED] jline#jline;2.12!jline.jar(src)
-[debug] :: resolution report :: resolve 119ms :: artifacts dl 22ms
+[debug] :: resolution report :: resolve 98ms :: artifacts dl 21ms
 [debug] 	report for default#space$sources_javadoc_2.11;1.0 compile produced in D:\Projects\Space\target\resolution-cache\reports\default-space$sources_javadoc_2.11-compile.xml
 [debug] 	report for default#space$sources_javadoc_2.11;1.0 runtime produced in D:\Projects\Space\target\resolution-cache\reports\default-space$sources_javadoc_2.11-runtime.xml
 [debug] 	report for default#space$sources_javadoc_2.11;1.0 test produced in D:\Projects\Space\target\resolution-cache\reports\default-space$sources_javadoc_2.11-test.xml
@@ -239,4 +239,4 @@
 [debug] 	report for default#space$sources_javadoc_2.11;1.0 docs produced in D:\Projects\Space\target\resolution-cache\reports\default-space$sources_javadoc_2.11-docs.xml
 [debug] 	report for default#space$sources_javadoc_2.11;1.0 pom produced in D:\Projects\Space\target\resolution-cache\reports\default-space$sources_javadoc_2.11-pom.xml
 [debug] 	report for default#space$sources_javadoc_2.11;1.0 scala-tool produced in D:\Projects\Space\target\resolution-cache\reports\default-space$sources_javadoc_2.11-scala-tool.xml
-[debug] 	resolve done (119ms resolve - 22ms download)
+[debug] 	resolve done (98ms resolve - 21ms download)

@@ -16,8 +16,10 @@ object Controls {
 
     val playerController = new ActionListener {
         override def onAction(name: String, keyPressed: Boolean, tpf: Float): Unit = {
+            if (!keyPressed) return
             name match {
-                case _ => clickResponse
+                case "Left Click" => clickResponse
+                case _ =>
             }
         }
     }
@@ -25,7 +27,7 @@ object Controls {
     val cameraController = new AnalogListener {
         override def onAnalog(name: String, value: Float, tpf: Float): Unit = {
             cam setLocation { cam.getLocation.add { translation(name, value) } }
-
+            User.update
         }
 
         def translation(name: String, value: Float): Vector3f = {
@@ -47,21 +49,10 @@ object Controls {
 
         if (results.size > 0) {
             val spatial: Spatial = getParentWithUserData("id", results.getClosestCollision.getGeometry)
-            val id = spatial.getUserData("id").asInstanceOf[Int]
-
-            Binder.get(id) match {
-                case s: PlanetSystem => {
-                    val font: BitmapFont = Main.getAssetManager.loadFont("Interface/Fonts/Default.fnt")
-                    val text: BitmapText = new BitmapText(font)
-                    text.setText(s.name)
-                    text.setSize(50)
-                    Main.getGuiNode.attachChild(text)
-                    text.setLocalTranslation(inputManager.getCursorPosition.x, Main.getInputManager.getCursorPosition.y, 0)
-
-                }
-                case _ => Unit
-            }
+            User.select(spatial)
         }
+        else
+            User.deselect
 
     }
 

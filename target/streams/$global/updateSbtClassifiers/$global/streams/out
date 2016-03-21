@@ -642,11 +642,18 @@
 [debug] == resolving dependencies default#space$sbt_2.11;1.0->commons-io#commons-io;2.0.1 [default->runtime]
 [debug] == resolving dependencies default#space$sbt_2.11;1.0->commons-io#commons-io;2.0.1 [default->compile]
 [debug] == resolving dependencies default#space$sbt_2.11;1.0->commons-io#commons-io;2.0.1 [default->master]
+[debug] == resolving dependencies default#space$sbt_2.11;1.0->com.eed3si9n#sbt-assembly;0.10.1 [default->default(compile)]
+[info] Resolving com.eed3si9n#sbt-assembly;0.10.1 ...
+[debug] sbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.10.1 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.eed3si9n#sbt-assembly;0.10.1
+[debug] 	found com.eed3si9n#sbt-assembly;0.10.1 in sbt-chain
+[debug] 	[0.10.1] com.eed3si9n#sbt-assembly;0.10.1
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.7!sbt.jar
 [debug] 	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#sbt-assembly;0.10.1!sbt-assembly.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.7!main.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.7!compiler-interface-src.jar
@@ -699,9 +706,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.7!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.7!apply-macro.jar
-[debug] :: resolution report :: resolve 897ms :: artifacts dl 39ms
+[debug] :: resolution report :: resolve 689ms :: artifacts dl 61ms
 [debug] 	report for default#space$sbt_2.11;1.0 default produced in D:\Projects\Space\target\resolution-cache\reports\default-space$sbt_2.11-default.xml
-[debug] 	resolve done (897ms resolve - 39ms download)
+[debug] 	resolve done (689ms resolve - 61ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#space$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -826,6 +833,12 @@
 [debug] == resolving dependencies default#space$sources_2.11;1.0->commons-io#commons-io;2.0.1 [default->runtime]
 [debug] == resolving dependencies default#space$sources_2.11;1.0->commons-io#commons-io;2.0.1 [default->compile]
 [debug] == resolving dependencies default#space$sources_2.11;1.0->commons-io#commons-io;2.0.1 [default->master]
+[debug] == resolving dependencies default#space$sources_2.11;1.0->com.eed3si9n#sbt-assembly;0.10.1 [default->default(compile)]
+[info] Resolving com.eed3si9n#sbt-assembly;0.10.1 ...
+[debug] sbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.10.1 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.eed3si9n#sbt-assembly;0.10.1
+[debug] 	found com.eed3si9n#sbt-assembly;0.10.1 in sbt-chain
+[debug] 	[0.10.1] com.eed3si9n#sbt-assembly;0.10.1
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar(src)
@@ -843,6 +856,14 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
 [debug] 	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar(src)
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar(src)
-[debug] :: resolution report :: resolve 38ms :: artifacts dl 11ms
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.1/srcs/sbt-assembly-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.1/srcs/sbt-assembly-sources.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.1/srcs/sbt-assembly-sources.jar
+[info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.1/srcs/sbt-assembly-sources.jar ...
+[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.1/srcs/sbt-assembly-sources.jar
+[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.1/srcs/sbt-assembly-sources.jar.sha1
+[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.1/srcs/sbt-assembly-sources.jar
+[info] 	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.10.1!sbt-assembly.jar(src) (2350ms)
+[debug] :: resolution report :: resolve 62ms :: artifacts dl 2948ms
 [debug] 	report for default#space$sources_2.11;1.0 default produced in D:\Projects\Space\target\resolution-cache\reports\default-space$sources_2.11-default.xml
-[debug] 	resolve done (38ms resolve - 11ms download)
+[debug] 	resolve done (62ms resolve - 2948ms download)

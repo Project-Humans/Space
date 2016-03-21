@@ -2,45 +2,14 @@
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(D:\Projects\Space\src\main\scala\Main.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(D:\Projects\Space\src\main\scala\Main.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(D:\Projects\Space\src\main\scala\Main.scala)[0m
-[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 1 Scala source to D:\Projects\Space\target\scala-2.11\classes...[0m
-[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.5[0m
-[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.5[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 55e292, interfacing (CompilerInterface) with Scala compiler version 2.11.5[0m
-[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
-[0m[[0mdebug[0m] [0m	-bootclasspath[0m
-[0m[[0mdebug[0m] [0m	C:\Program Files (x86)\Java\jre1.8.0_51\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_51\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_51\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_51\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_51\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_51\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_51\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_51\classes;C:\Users\Denis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.5.jar[0m
-[0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	D:\Projects\Space\target\scala-2.11\classes;C:\Users\Denis\.ivy2\cache\com.jme3\jmonkeyengine3\jars\jmonkeyengine3-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-desktop\jars\jME3-desktop-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-core\jars\jME3-core-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-lwjgl\jars\jME3-lwjgl-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\lwjgl\jars\lwjgl-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-lwjgl-natives\jars\jME3-lwjgl-natives-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-jbullet\jars\jME3-jbullet-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jbullet\jars\jbullet-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-blender\jars\jME3-blender-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-effects\jars\jME3-effects-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-networking\jars\jME3-networking-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-plugins\jars\jME3-plugins-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-terrain\jars\jME3-terrain-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-testdata\jars\jME3-testdata-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-jogg\jars\jME3-jogg-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\j-ogg-oggd\jars\j-ogg-oggd-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\j-ogg-vorbisd\jars\j-ogg-vorbisd-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jinput\jars\jinput-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\eventbus\jars\eventbus-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\stack-alloc\jars\stack-alloc-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\vecmath\jars\vecmath-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\xmlpull-xpp3\jars\xmlpull-xpp3-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-niftygui\jars\jME3-niftygui-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\nifty\jars\nifty-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\nifty-default-controls\jars\nifty-default-controls-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\nifty-examples\jars\nifty-examples-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\nifty-style-black\jars\nifty-style-black-3.0.0.20140325-SNAPSHOT.jar[0m
-[0m[[31merror[0m] [0mD:\Projects\Space\src\main\scala\Main.scala:9: not found: type Box[0m
-[0m[[31merror[0m] [0m    val b: Box = new Box(1, 1, 1); // create cube shape[0m
-[0m[[31merror[0m] [0m           ^[0m
-[0m[[31merror[0m] [0mD:\Projects\Space\src\main\scala\Main.scala:9: not found: type Box[0m
-[0m[[31merror[0m] [0m    val b: Box = new Box(1, 1, 1); // create cube shape[0m
-[0m[[31merror[0m] [0m                     ^[0m
-[0m[[31merror[0m] [0mD:\Projects\Space\src\main\scala\Main.scala:10: not found: type Geometry[0m
-[0m[[31merror[0m] [0m    val geom: Geometry = new Geometry("Box", b)[0m
-[0m[[31merror[0m] [0m              ^[0m
-[0m[[31merror[0m] [0mD:\Projects\Space\src\main\scala\Main.scala:10: not found: type Geometry[0m
-[0m[[31merror[0m] [0m    val geom: Geometry = new Geometry("Box", b)[0m
-[0m[[31merror[0m] [0m                             ^[0m
-[0m[[31merror[0m] [0mD:\Projects\Space\src\main\scala\Main.scala:11: not found: type Material[0m
-[0m[[31merror[0m] [0m    val mat: Material = new Material(assetManager, "Common/MatDefs/Misc/Unshaded.j3md")[0m
-[0m[[31merror[0m] [0m             ^[0m
-[0m[[31merror[0m] [0mD:\Projects\Space\src\main\scala\Main.scala:11: not found: type Material[0m
-[0m[[31merror[0m] [0m    val mat: Material = new Material(assetManager, "Common/MatDefs/Misc/Unshaded.j3md")[0m
-[0m[[31merror[0m] [0m                            ^[0m
-[0m[[31merror[0m] [0m6 errors found[0m
-[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
-[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
