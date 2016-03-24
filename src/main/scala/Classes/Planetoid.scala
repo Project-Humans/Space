@@ -1,5 +1,0 @@
-package Classes
-
-class Planetoid {
-
-}

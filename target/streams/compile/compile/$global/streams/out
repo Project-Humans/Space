@@ -2,14 +2,48 @@
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set()[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(D:\Projects\Space\src\main\scala\space\user\User.scala, D:\Projects\Space\src\main\scala\space\corefunc\Main.scala)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set(D:\Projects\Space\target\scala-2.11\classes\space\user\User$.class, D:\Projects\Space\target\scala-2.11\classes\space\corefunc\Main$.class, D:\Projects\Space\target\scala-2.11\classes\space\corefunc\Main.class, D:\Projects\Space\target\scala-2.11\classes\space\user\User.class)[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(D:\Projects\Space\src\main\scala\space\user\User.scala, D:\Projects\Space\src\main\scala\space\corefunc\Main.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	product: Set(D:\Projects\Space\src\main\scala\space\user\User.scala, D:\Projects\Space\src\main\scala\space\corefunc\Main.scala)[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(D:\Projects\Space\src\main\scala\space\user\User.scala, D:\Projects\Space\src\main\scala\space\corefunc\Main.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources to D:\Projects\Space\target\scala-2.11\classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.5[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.5[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler c879b2, interfacing (CompilerInterface) with Scala compiler version 2.11.5[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files (x86)\Java\jre1.8.0_51\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_51\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_51\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_51\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_51\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_51\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_51\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_51\classes;C:\Users\Denis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.5.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	D:\Projects\Space\target\scala-2.11\classes;C:\Users\Denis\.ivy2\cache\com.jme3\jmonkeyengine3\jars\jmonkeyengine3-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-desktop\jars\jME3-desktop-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-core\jars\jME3-core-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-lwjgl\jars\jME3-lwjgl-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\lwjgl\jars\lwjgl-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-lwjgl-natives\jars\jME3-lwjgl-natives-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-jbullet\jars\jME3-jbullet-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jbullet\jars\jbullet-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-blender\jars\jME3-blender-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-effects\jars\jME3-effects-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-networking\jars\jME3-networking-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-plugins\jars\jME3-plugins-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-terrain\jars\jME3-terrain-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-testdata\jars\jME3-testdata-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-jogg\jars\jME3-jogg-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\j-ogg-oggd\jars\j-ogg-oggd-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\j-ogg-vorbisd\jars\j-ogg-vorbisd-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jinput\jars\jinput-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\eventbus\jars\eventbus-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\stack-alloc\jars\stack-alloc-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\vecmath\jars\vecmath-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\xmlpull-xpp3\jars\xmlpull-xpp3-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\jME3-niftygui\jars\jME3-niftygui-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\nifty\jars\nifty-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\nifty-default-controls\jars\nifty-default-controls-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\nifty-examples\jars\nifty-examples-3.0.0.20140325-SNAPSHOT.jar;C:\Users\Denis\.ivy2\cache\com.jme3\nifty-style-black\jars\nifty-style-black-3.0.0.20140325-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 2.503929345 s[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\Projects\Space\src\main\scala\space\user\User.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\Projects\Space\src\main\scala\space\user\User.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\Projects\Space\src\main\scala\space\user\User.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\Projects\Space\src\main\scala\space\user\User.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\Projects\Space\src\main\scala\space\user\User.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	resolutionKoef.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in D:\Projects\Space\src\main\scala\space\user\Controls.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\Projects\Space\src\main\scala\space\corefunc\Main.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\Projects\Space\src\main\scala\space\corefunc\Main.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\Projects\Space\src\main\scala\space\corefunc\Main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\Projects\Space\src\main\scala\space\corefunc\Main.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\Projects\Space\src\main\scala\space\corefunc\Main.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	getWidth.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in D:\Projects\Space\src\main\scala\space\corefunc\ModelFactory.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in D:\Projects\Space\src\main\scala\space\user\Controls.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\Projects\Space\src\main\scala\space\user\User.scala: Set(getWidth)[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

@@ -12,12 +12,14 @@ import com.jme3.light.DirectionalLight
 import com.jme3.math.{Ray, Vector2f, Vector3f}
 import com.jme3.scene.Spatial
 import com.jme3.scene.plugins.blender.BlenderModelLoader
-import space.fundamental.{Normal, Resource, Planet, PlanetSystem}
+import space.fundamental._
 import space.user.Controls
 
 
 object Main extends SimpleApplication {
     def main(args: Array[String]) = start
+
+    def getWidth = settings.getWidth
 
     override def simpleInitApp(): Unit = {
 
@@ -34,7 +36,7 @@ object Main extends SimpleApplication {
         //j3oloader("sphere with texture test")
 
         val planetSystem: PlanetSystem = new PlanetSystem("Sol")
-        planetSystem.planets = new Planet("earth", 0, List[Resource](), Normal) :: List[Planet]()
+        planetSystem.planets = new Planet("earth", Normal, List[Resource](), Temperate) :: List[Planet]()
       //  val system: System = new System(planetSystem)
 
         val spatial: Spatial = ModelFactory(planetSystem)
