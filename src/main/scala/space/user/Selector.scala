@@ -6,7 +6,12 @@ import com.jme3.scene.{Node, Spatial}
 import space.corefunc.{Main, Binder}
 import space.fundamental.PlanetSystem
 
-object User {
+object Selector {
+
+    val labelSize = 800
+    val labelShift = (-0.3f, 1.5f)
+    val standardWidth = 3840f
+
     var selected: Option[Spatial] = None
 
     var selectionNode: Node = new Node
@@ -14,13 +19,13 @@ object User {
 
     var label: BitmapText = null
 
-    def sizeKoef: Float = {
+    def cameraDistance: Float = {
         if (selected.isEmpty) return 0
-        val result = selected.get.getLocalScale.x / Math.abs(selected.get.getWorldTranslation.z - Controls.cam.getLocation.z)
-        result
+        val spatial: Spatial = selected.get
+        spatial.getLocalScale.x / Math.abs(spatial.getWorldTranslation.z - Controls.cam.getLocation.z)
     }
 
-    def resolutionKoef: Float = Main.getWidth / 3840f
+    def resolutionScale: Float = Main.getWidth / standardWidth
 
     def spatialName: String = {
         if (selected.isEmpty) return ""
@@ -40,7 +45,7 @@ object User {
 
     def deselect: Unit = {
         if (selectionNode.getChildren.size > 0) {
-            selectionNode.detachChildAt(0)
+            selectionNode.detachChild(label)
         }
         selected = None
     }
@@ -62,7 +67,7 @@ object User {
         }
     }
 
-    def update: Unit = {
+    def refresh: Unit = {
         if (selected.isEmpty) return
 
         relocateLabel
@@ -76,14 +81,15 @@ object User {
     }
 
     def resizeLabel: Unit = {
-        label.setSize(sizeKoef * 800 * resolutionKoef)
+        label.setSize(cameraDistance * resolutionScale * labelSize)
     }
 
     def labelPosition: Vector3f = {
-        selected match {
-            case Some(spatial) => Controls.cam.getScreenCoordinates(selected.get.getLocalTranslation.add (-0.3f * selected.get.getLocalScale.x, selected.get.getLocalScale.y * 1.5f, 0) )
-            case _ => Vector3f.ZERO
-        }
+        selected.map { spatial =>
+            val scale: Vector3f = spatial.getLocalScale
+            Controls.cam.getScreenCoordinates(spatial.getLocalTranslation.add(scale.x * labelShift._1, scale.y * labelShift._2, 0) )
+        } getOrElse Vector3f.ZERO
+
     }
 
 }

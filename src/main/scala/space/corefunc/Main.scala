@@ -13,18 +13,20 @@ import com.jme3.math.{Ray, Vector2f, Vector3f}
 import com.jme3.scene.Spatial
 import com.jme3.scene.plugins.blender.BlenderModelLoader
 import space.fundamental._
-import space.user.Controls
+import space.user.{Observer, Controls}
 
 
 object Main extends SimpleApplication {
     def main(args: Array[String]) = start
 
     def getWidth = settings.getWidth
+    def getHeight = settings.getHeight
 
     override def simpleInitApp(): Unit = {
 
-        initCameraControlKeys
-        initPlayerControlKeys
+        Controls.initKeys
+        Controls.activateCameraController
+        Controls.activatePlayerController
 
         flyCam.setMoveSpeed(10)
         flyCam.setEnabled(false)
@@ -36,7 +38,8 @@ object Main extends SimpleApplication {
         //j3oloader("sphere with texture test")
 
         val planetSystem: PlanetSystem = new PlanetSystem("Sol")
-        planetSystem.planets = new Planet("earth", Normal, List[Resource](), Temperate) :: List[Planet]()
+        planetSystem.planets = new Planet("earth", Tiny, List[Resource](), Temperate) :: new Planet("mars", Normal, List[Resource](), Temperate) :: new Planet("jupiter", Huge, List[Resource](), Temperate) :: List[Planet]()
+
       //  val system: System = new System(planetSystem)
 
         val spatial: Spatial = ModelFactory(planetSystem)
@@ -50,25 +53,11 @@ object Main extends SimpleApplication {
 
         rootNode.addLight(dl)
 
+
+
     }
 
-    def initCameraControlKeys: Unit = {
-        inputManager.addMapping("Up", new KeyTrigger(KeyInput.KEY_W))
-        inputManager.addMapping("Down", new KeyTrigger(KeyInput.KEY_S))
-        inputManager.addMapping("Left", new KeyTrigger(KeyInput.KEY_A))
-        inputManager.addMapping("Right", new KeyTrigger(KeyInput.KEY_D))
-        inputManager.addMapping("Forward", new MouseAxisTrigger(MouseInput.AXIS_WHEEL, false))
-        inputManager.addMapping("Back", new MouseAxisTrigger(MouseInput.AXIS_WHEEL, true))
 
-        inputManager.addListener(Controls.cameraController, "Up", "Down", "Right", "Left", "Forward", "Back")
-    }
-
-    def initPlayerControlKeys: Unit = {
-        inputManager.addMapping("Left Click", new MouseButtonTrigger(MouseInput.BUTTON_LEFT))
-        inputManager.addMapping("Right Click", new MouseButtonTrigger(MouseInput.BUTTON_RIGHT))
-
-        inputManager.addListener(Controls.playerController, "Left Click", "Right Click")
-    }
 
     def j3oloader(name: String): Unit = {
         assetManager.registerLoader(classOf[BlenderModelLoader], "blend")

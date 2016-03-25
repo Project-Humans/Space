@@ -7,12 +7,24 @@ case object Temperate extends PlanetType
 case object Acid_Rain extends PlanetType
 case object Desert extends PlanetType
 
-sealed trait PlanetSize
-case object Tiny extends PlanetSize
-case object Small extends PlanetSize
-case object Normal extends PlanetSize
-case object Big extends PlanetSize
-case object Huge extends PlanetSize
+sealed trait PlanetSize {
+    def modifier: Float
+}
+case object Tiny extends PlanetSize {
+    def modifier = 0.25f
+}
+case object Small extends PlanetSize {
+    def modifier = 0.5f
+}
+case object Normal extends PlanetSize {
+    def modifier = 1f
+}
+case object Big extends PlanetSize {
+    def modifier = 1.25f
+}
+case object Huge extends PlanetSize {
+    def modifier = 1.5f
+}
 
 
 // colProc - colonization process

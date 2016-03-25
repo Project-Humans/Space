@@ -1,7 +1,8 @@
 package space.corefunc
 
 import com.jme3.material.Material
-import com.jme3.scene.Spatial
+import com.jme3.scene.shape.Sphere
+import com.jme3.scene.{Geometry, Spatial}
 import space.fundamental.PlanetSystem
 
 object ModelFactory {
@@ -17,5 +18,6 @@ object ModelFactory {
             }
         }
     }
+
 
 }
