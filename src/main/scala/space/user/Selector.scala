@@ -3,14 +3,14 @@ package space.user
 import com.jme3.font.{BitmapText, BitmapFont}
 import com.jme3.math.{Vector2f, Vector3f}
 import com.jme3.scene.{Node, Spatial}
-import space.corefunc.{Main, Binder}
+import space.corefunc.{ModelFactory, Main, Binder}
 import space.fundamental.PlanetSystem
 
 object Selector {
 
     val labelSize = 800
     val labelShift = (-0.3f, 1.5f)
-    val standardWidth = 3840f
+
 
     var selected: Option[Spatial] = None
 
@@ -25,8 +25,6 @@ object Selector {
         spatial.getLocalScale.x / Math.abs(spatial.getWorldTranslation.z - Controls.cam.getLocation.z)
     }
 
-    def resolutionScale: Float = Main.getWidth / standardWidth
-
     def spatialName: String = {
         if (selected.isEmpty) return ""
         val id = selected.get.getUserData("id").asInstanceOf[Int]
@@ -34,13 +32,6 @@ object Selector {
             case s: PlanetSystem => s.name
             case _ => ""
         }
-    }
-
-    def makeLabel: BitmapText = {
-        val font: BitmapFont = Main.getAssetManager.loadFont("Interface/Fonts/Default.fnt")
-        val text: BitmapText = new BitmapText(font)
-        text.setText(spatialName)
-        text
     }
 
     def deselect: Unit = {
@@ -54,17 +45,18 @@ object Selector {
         deselect
 
         selected = Some(spatial)
-        val id = spatial.getUserData("id").asInstanceOf[Int]
 
+        val id = spatial.getUserData("id").asInstanceOf[Int]
         Binder.get(id) match {
             case s: PlanetSystem => {
-                label = makeLabel
+                label = ModelFactory.createLabel(spatialName)
                 selectionNode.attachChild(label)
                 relocateLabel
                 resizeLabel
             }
-            case _ =>
+            case _ => selected = None
         }
+
     }
 
     def refresh: Unit = {
@@ -81,7 +73,7 @@ object Selector {
     }
 
     def resizeLabel: Unit = {
-        label.setSize(cameraDistance * resolutionScale * labelSize)
+        label.setSize(cameraDistance * Main.resolutionScale * labelSize)
     }
 
     def labelPosition: Vector3f = {

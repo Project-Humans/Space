@@ -1,8 +1,8 @@
 package space.fundamental.parameters
 
-class ShipParameters ( val speed : Int,
-                       val attack : Int,
-                       val defence : Int,
-                       val hp : Int ) {
+case class ShipParameters ( val speed: Int = 0,
+                       val attack: Int = 0,
+                       val defence: Int = 0,
+                       val hp: Int = 0 ) {
 
 }
